@@ -45,6 +45,6 @@ class Pyomx():
 			if self.PyomxInstance:
 				self.PyomxInstance.stdin.write(send)
 			else:
-				print 'An Omxplayer instance is not present, are you sure video is being player?'
+				print 'An Omxplayer instance is not present, are you sure video is being played?'
 		except Exception as e:
 			pass
